@@ -1,0 +1,109 @@
+/* PALETA DE COLORES  */
+:root {
+  --fondo: #eeeeee;
+  --fondoNavBar: #000000;
+  --textos: #ffff;
+  --fondoSideBar: #231b6e;
+}
+
+/* GLOBALES  */
+
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+
+  background-color: var(--fondo);
+  color: var(--textos);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  /* line-height: 1.5em; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.825em;
+  line-height: 1.4em;
+  margin: 20px 0 10px;
+}
+
+h4 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+h5 {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a {
+  color: #9c27b0;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #89229b;
+  text-decoration: none;
+}
+
+/* NAVBAR  */
+.Nav_Container {
+
+  width: 100%;
+  height: 8rem;
+  background-color: var(--fondoNavBar);
+  border-radius: .2rem;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.logo {
+  max-width: 15rem;
+
+}
+
+/* SIDEBAR  */
+
+.SB_Container {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 15%;
+  height: 90vh;
+  border-radius: 2.5rem;
+  background-color: var(--fondoSideBar);
+}
